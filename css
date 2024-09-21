@@ -1,0 +1,126 @@
+/* General Styling */
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #e0f7e9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #a8e6cf;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 3em;
+  color: #2b9348;
+}
+
+.tagline {
+  font-size: 1.2em;
+  color: #4c956c;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #2b9348;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  color: #2b9348;
+}
+
+.why-join-list {
+  list-style: none;
+  padding: 0;
+}
+
+.why-join-list li {
+  background-color: #bde0fe;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 10px;
+  color: #03506f;
+  font-weight: bold;
+}
+
+.apply-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.apply-form label {
+  margin-top: 10px;
+  color: #03506f;
+}
+
+.apply-form input, .apply-form textarea {
+  width: 80%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 2px solid #2b9348;
+}
+
+.apply-form button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4c956c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.apply-form button:hover {
+  background-color: #2b9348;
+}
+
+/* Members Section */
+.password-section {
+  margin-top: 20px;
+}
+
+#password {
+  padding: 10px;
+  border: 2px solid #2b9348;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  background-color: #a8e6cf;
+  padding: 20px;
+  color: #03506f;
+}
+
+footer p {
+  margin: 0;
+}
